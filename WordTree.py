@@ -53,17 +53,32 @@ class WordTree:
     def reset(self):
         self.chains = []
 
+    def get_best_chains(self, min_chain_len, min_avg_word):
+
+        filtered_chains = []
+        
+        for chain in self.chains:            
+            if len(chain) >= min_chain_len: 
+                wordlen_sum = 0.
+                for word in chain:
+                    wordlen_sum += len(word)
+                if (wordlen_sum/len(chain)) >= min_avg_word:
+                    filtered_chains.append(chain)
+        return(filtered_chains)
+                
 
 
-wt = WordTree()
 
-wt.add_word("ACT")
-wt.add_word("AC")
-wt.add_word("ACTION")
-test = "REACTIONACTS"
+if __name__ == "__main__":
+    wt = WordTree()
 
-wt.build_from_file("aa_words.txt")
-for i in range(len(test)):
-    wt.find_word_chain(test, i, [])
+    wt.add_word("ACT")
+    wt.add_word("AC")
+    wt.add_word("ACTION")
+    test = "REACTIONACTS"
 
-print(wt.chains)
+    wt.build_from_file("aa_words.txt")
+    for i in range(len(test)):
+        wt.find_word_chain(test, i, [])
+
+    print(wt.chains)

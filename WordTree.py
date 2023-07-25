@@ -16,7 +16,6 @@ class WordTree:
             current_sub_dict = current_sub_dict[letter]
 
     def find_word_chain(self, target_text, start, current_chain):
-
         current_subtree = self.tree
         current_word = ""
         i = 0
@@ -27,6 +26,7 @@ class WordTree:
 
             # dollar sign marks the end of complete words
             if "$" in current_subtree:
+                print(current_chain + [current_word])
                 self.find_word_chain(target_text, start + i, current_chain + [current_word])
 
             # traverse the tree one letter at a time using the input string
@@ -72,13 +72,11 @@ class WordTree:
 if __name__ == "__main__":
     wt = WordTree()
 
-    wt.add_word("ACT")
-    wt.add_word("AC")
-    wt.add_word("ACTION")
-    test = "REACTIONACTS"
+    # IANDLAD
+    test = "GTTQCTACRTMIANDLADTMTCHFTQ"
 
-    wt.build_from_file("aa_words.txt")
+    wt.build_from_file("Taylor/bracelets.txt")
     for i in range(len(test)):
         wt.find_word_chain(test, i, [])
 
-    print(wt.chains)
+    #print(wt.chains)

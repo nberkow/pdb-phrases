@@ -1,6 +1,5 @@
 import requests
 import asyncio
-import aiohttp
 
 import backoff
 from WordTree import WordTree
@@ -8,7 +7,7 @@ from WordTree import WordTree
 import sys
 import logging
 import math
-
+from optparse import OptionParser
 
 @backoff.on_exception(backoff.expo,
                       requests.exceptions.RequestException,
@@ -63,7 +62,7 @@ def find_words(aa_seq, word_tree, pdb_id, out_path, min_words, min_avg_wordlen, 
                 print(f"{pdb_id}\t{printable_chain}", file=chains_file)
     
 
-def get_fetch_tasks(test, word_tree, out_path, min_words, min_avg_wordlen, logger):
+def get_fetch_tasks(test, word_tree, out_path, min_words, min_avg_wordlen, skip_ids, logger):
 
     if test:
         id_characters = "4HB" # this subset has hits
@@ -77,7 +76,8 @@ def get_fetch_tasks(test, word_tree, out_path, min_words, min_avg_wordlen, logge
             for char3 in id_characters: 
                 for char4 in id_characters:
                     pdb_id = char1 + char2 + char3 + char4
-                    tasks.append(fetch_and_process(pdb_id, word_tree, out_path, min_words, min_avg_wordlen, logger))
+                    if not pdb_id in skip_ids:
+                        tasks.append(fetch_and_process(pdb_id, word_tree, out_path, min_words, min_avg_wordlen, logger))
     return(tasks)
          
 def process_data(data, word_tree, out_path, min_words, min_avg_wordlen, logger):
@@ -97,10 +97,25 @@ def process_data(data, word_tree, out_path, min_words, min_avg_wordlen, logger):
 async def main():
 
     # args
-    word_list_file = sys.argv[1]
-    out_path = sys.argv[2]
-    min_words = int(sys.argv[3])
-    min_avg_wordlen = float(sys.argv[4])
+    parser = OptionParser()
+    parser.add_option("-m", "--min-words", dest="min_words", default=1)
+    parser.add_option("-M", "--min-avg-wordlen", dest="min_avg_wordlen", default=1)
+    parser.add_option("-s", "--skip-list", dest="skip_list", default = "")
+    parser.add_option("-t", "--test", dest="test_ids_given", default="0")
+
+    (options, args) = parser.parse_args()
+    word_list_file = args[0]
+    out_path = args[1]
+    
+    min_words = int(options.min_words)
+    min_avg_wordlen = float(options.min_avg_wordlen)
+
+    skip_ids = set()
+    if options.skip_list != "":
+        with open(options.skip_list, 'r') as skip_file:
+            for sid in skip_file:
+                skip_ids.add(sid.rstrip())
+    print(skip_ids)
 
     # build a word search tree
     word_tree = WordTree()
@@ -115,10 +130,10 @@ async def main():
 
     # get fetch_data function calls for each pdb ID
     use_test_ids = False
-    if len(sys.argv) > 5:
+    if int(options.test_ids_given) > 0:
         use_test_ids = True
 
-    tasks = get_fetch_tasks(use_test_ids, word_tree, out_path, min_words, min_avg_wordlen, logger)
+    tasks = get_fetch_tasks(use_test_ids, word_tree, out_path, min_words, min_avg_wordlen, skip_ids, logger)
     logger.info(f"{len(tasks)} queries to run")
     await asyncio.gather(*tasks)
 

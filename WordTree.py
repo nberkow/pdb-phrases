@@ -26,7 +26,6 @@ class WordTree:
 
             # dollar sign marks the end of complete words
             if "$" in current_subtree:
-                print(current_chain + [current_word])
                 self.find_word_chain(target_text, start + i, current_chain + [current_word])
 
             # traverse the tree one letter at a time using the input string

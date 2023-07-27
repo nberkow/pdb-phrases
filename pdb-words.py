@@ -1,18 +1,14 @@
 import requests
-import asyncio
-
 import backoff
 from WordTree import WordTree
 
-import sys
 import logging
-import math
 from optparse import OptionParser
 
 @backoff.on_exception(backoff.expo,
                       requests.exceptions.RequestException,
-                      max_tries=3
-                      )
+                      max_tries=3,
+                      max_time=30)
 def query_pdb(pdb_id, logger):
 
     """
@@ -25,25 +21,32 @@ def query_pdb(pdb_id, logger):
     i = 1
     template = "https://data.rcsb.org/rest/v1/core/polymer_entity/{}/{}"
     q = template.format(pdb_id, i)
+    print(q)
 
     logger.info(f"trying: {pdb_id}")
+
     response = requests.get(q)
     logger.info(response.status_code)
+    if response.status_code == 200:
+        sequence = response.json()["entity_poly"]["pdbx_seq_one_letter_code"]
+        logger.info(f"found sequence of length: {len(sequence)}")
+        return(sequence)
+    else:
+        logger.info("nonexistant record:\t{pdb_id}")
     
-    sequence = response.json()["entity_poly"]["pdbx_seq_one_letter_code"]
-    logger.info(f"found sequence of length: {len(sequence)}")
-    return((pdb_id, sequence))
+    return("")
 
+"""
 async def fetch_and_process(pdb_id, word_tree, out_path, min_words, min_avg_wordlen, logger):
     try:
-        pdb_id, seq = query_pdb(pdb_id, logger)
+        pdb_id, seq = await query_pdb(pdb_id, logger)
         
     except Exception as e:
         logger.error(f"Exception caught for {pdb_id}")
         logger.error(str(e))
         return "" 
     
-    process_data((pdb_id, seq), word_tree, out_path, min_words, min_avg_wordlen, logger)
+    process_data((pdb_id, seq), word_tree, out_path, min_words, min_avg_wordlen, logger)"""
     
 def find_words(aa_seq, word_tree, pdb_id, out_path, min_words, min_avg_wordlen, logger):
 
@@ -54,31 +57,26 @@ def find_words(aa_seq, word_tree, pdb_id, out_path, min_words, min_avg_wordlen, 
 
     chains = word_tree.get_best_chains(min_words, min_avg_wordlen)
     logger.info(f"found {len(chains)} for {pdb_id}")
+    return(chains)
+   
 
-    if len(chains) > 0:
-        with open(f"{out_path}/{pdb_id}.txt", 'w') as chains_file:
-            for c in chains:
-                printable_chain = " ".join(c)
-                print(f"{pdb_id}\t{printable_chain}", file=chains_file)
-    
-
-def get_fetch_tasks(test, word_tree, out_path, min_words, min_avg_wordlen, skip_ids, logger):
+def get_ids(test, skip_ids, logger):
 
     if test:
         id_characters = "4HB" # this subset has hits
     else:
-        id_characters = "0123456789ABCDEFGHIJKLMNOPQRSTUVXYZ"
+        id_characters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     
-    tasks = []
+    ids = []
 
-    for char1 in id_characters[1:]:
+    for char1 in id_characters[1:30]:
         for char2 in id_characters:
             for char3 in id_characters: 
                 for char4 in id_characters:
                     pdb_id = char1 + char2 + char3 + char4
                     if not pdb_id in skip_ids:
-                        tasks.append(fetch_and_process(pdb_id, word_tree, out_path, min_words, min_avg_wordlen, logger))
-    return(tasks)
+                        ids.append(pdb_id)
+    return(ids)
          
 def process_data(data, word_tree, out_path, min_words, min_avg_wordlen, logger):
 
@@ -94,14 +92,14 @@ def process_data(data, word_tree, out_path, min_words, min_avg_wordlen, logger):
     else:
         logger.info(f"empty data: {data}")
 
-async def main():
+def main():
 
     # args
     parser = OptionParser()
     parser.add_option("-m", "--min-words", dest="min_words", default=1)
     parser.add_option("-M", "--min-avg-wordlen", dest="min_avg_wordlen", default=1)
     parser.add_option("-s", "--skip-list", dest="skip_list", default = "")
-    parser.add_option("-t", "--test", dest="test_ids_given", default="0")
+    parser.add_option("-t", "--test", dest="use_test_ids", default=0)
 
     (options, args) = parser.parse_args()
     word_list_file = args[0]
@@ -114,8 +112,7 @@ async def main():
     if options.skip_list != "":
         with open(options.skip_list, 'r') as skip_file:
             for sid in skip_file:
-                skip_ids.add(sid.rstrip())
-    print(skip_ids)
+                skip_ids.add(sid.rstrip())   
 
     # build a word search tree
     word_tree = WordTree()
@@ -128,17 +125,23 @@ async def main():
     logger = logging.getLogger()
     logger.setLevel("INFO")
 
-    # get fetch_data function calls for each pdb ID
-    use_test_ids = False
-    if int(options.test_ids_given) > 0:
-        use_test_ids = True
+    ids = get_ids(bool(options.use_test_ids), skip_ids, logger)
+    logger.info(f"{len(ids)} queries to run")
 
-    tasks = get_fetch_tasks(use_test_ids, word_tree, out_path, min_words, min_avg_wordlen, skip_ids, logger)
-    logger.info(f"{len(tasks)} queries to run")
-    await asyncio.gather(*tasks)
+    with open(out_path, 'w') as chains_file:
+        for pdb_id in ids:
+            aa_seq = query_pdb(pdb_id, logger)
+            if len(aa_seq) > 0:
+                chains = find_words(aa_seq, word_tree, pdb_id, out_path, min_words, min_avg_wordlen, logger)
+                print(len(chains))
+                for c in chains:
+                    printable_chain = " ".join(c)
+                    print(f"{pdb_id}\t{printable_chain}", file=chains_file)
+
+
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
 
 
 

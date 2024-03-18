@@ -31,15 +31,15 @@ Check out what I found
 
 Bracelet: SYWTYS
 
-Where it comes from: A bacteria
+Where it comes from: A bacteria <br>
 Where it really comes from: Mr. Perfectly Fine
 
 The lyric: “Sashay your way to your seat”
 
 What it says about you: You know exactly where your seat is and exactly how to get there
 
-Other options:
-IGSCAF — Tell Me Why
+Other options: <br>
+IGSCAF — Tell Me Why <br>
 INFAAA — The Way I Loved You
 
 ## Speak Now
@@ -49,14 +49,14 @@ INFAAA — The Way I Loved You
 
 Bracelet: ISILYR
 
-Where it comes from: A lab rat
+Where it comes from: A lab rat <br>
 Where it really comes from: Back To December
 
 The Lyric: “I swear I’d love you right”
 
 What it says about you: Either you’re still having complicated feelings about a past relationship or you’re just really into the idea of time travel
 
-Other options:
+Other options: <br>
 LMLLH — Ours
 
 ## Red
@@ -67,16 +67,16 @@ LMLLH — Ours
 
 Bracelet: STIMPD
 
-Where it comes from: A bacteria that lives in very hot water
+Where it comes from: A bacteria that lives in very hot water <br>
 Where it really comes from: The Moment I knew
 
 The Lyric: “Standing there in my party dress”
 
 What it says about you: You don’t love being the center of attention, but your Eras outfit is amazing!
 
-Other options:
-IIWASG — Girl At Home
-LTIAYT — Last time I’m asking you this
+Other options: <br>
+IIWASG — Girl At Home <br>
+LTIAYT — Last time I’m asking you this <br>
 
 ## 1989
 <p align="center">
@@ -86,15 +86,15 @@ LTIAYT — Last time I’m asking you this
 
 Bracelet: TTYIII
 
-Where it comes from: Humans
+Where it comes from: Humans <br>
 Where it really comes from: Blank Space
 
 The Lyric: “They’ll tell you I’m insane (Insane)”
 
 What it says about you: This song is about owning your image and re-inventing yourself at the same time no matter what people think. If you’re wearing this you’re ready to cross over into a new genre
 
-Other options:
-IGGDIF — Blank Space
+Other options: <br>
+IGGDIF — Blank Space <br>
 DYTIAT — Bad Blood
 
 ## Reputation
@@ -105,14 +105,14 @@ DYTIAT — Bad Blood
 
 Bracelet: IDLYKK
 
-Where it comes from: Anthrax!
+Where it comes from: Anthrax! <br>
 Where it really comes from: Look What You Made Me Do
 
 The Lyric: “I don’t like your kingdom keys”
 
 What it says about you: You have a dark side. The bacteria that this sequence comes from, much like the album Reputation, is weaponized
 
-Other options:
+Other options: <br>
 TGTPAP — I Did Something Bad
 
 ## Lover
@@ -122,16 +122,16 @@ TGTPAP — I Did Something Bad
 
 Bracelet: TNLTLT
 
-Where it comes from: A tiny monkey
+Where it comes from: A tiny monkey <br>
 Where it really comes from: Miss Americana And the Heartbreak Prince
 
 The Lyric: “There’s nothing like this (Like this)”
 
 What it says about you: Tiny monkeys are adorable
 
-Other options:
-AYKILS — London Boy
-ASTIDK — You Need To Calm Down
+Other options: <br>
+AYKILS — London Boy <br>
+ASTIDK — You Need To Calm Down <br>
 
 ## Folklore
 <p align="center">
@@ -140,14 +140,14 @@ ASTIDK — You Need To Calm Down
 
 Bracelet: TYYCAS
 
-Where it comes from: humans
+Where it comes from: humans <br>
 Where it really comes from: Illicit Affairs
 
 The Lyric: “Tell yourself you can always stop”
 
 What it says about you: You’re into interconnected narratives. You know that everyone has a perspective and that the villain in one story is often the protagonist in another
 
-Other options:
+Other options: <br>
 RNITLT — Betty
 
 ## Evermore
@@ -157,14 +157,14 @@ RNITLT — Betty
 
 Bracelet: AINGLA
 
-Where it comes from: A flowering plant
+Where it comes from: A flowering plant <br>
 Where it really comes from: Cowboy Like Me
 
 The Lyric: “And I’m never gonna love again”
 
 What it says about you: You never wanted love, just a fancy car
 
-Other options:
+Other options: <br>
 IDLAGR — Gold Rush
 
 ## Midnights
@@ -173,15 +173,15 @@ IDLAGR — Gold Rush
 </p>
 Bracelet: MAKVLT
 
-Where it comes from: A rabbit
+Where it comes from: A rabbit <br>
 Where it really comes from: Karma
 
 The Lyric “Me and karma vibe like that”
 
 What it says about you: You don’t get upset about little things like, for example, your life’s work being owned by some music industry bro. You know that what goes around comes around
 
-Other options:
-TTMATI — You’re On Your Own Kid
+Other options: <br>
+TTMATI — You’re On Your Own Kid <br>
 SSTSFTT — Mastermind
 
 ## Debut
@@ -195,9 +195,7 @@ Bracelet: AYKEAM AIKEAY
 Where it’s really from: I’m Only Me When I’m With You
 
 Lyrics:
-“And I know everything about you”
+“And I know everything about you” <br>
 “And you know everything about me”
 
 What it says about you: You miss the old Taylor
-
-Those are the best ones I found for this silly project. The full list is in a google doc here.

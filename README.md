@@ -1,7 +1,9 @@
 The Protein Data Bank is an important resource for scientists. It stores the sequences of amino acids that make up proteins, one of the building blocks of life. The databases stores protein sequences as strings of letters, like this:
 
-![alt text](https://github.com/nberkow/pdb-phrases/blob/main/assets/karmaSeq.png)
-6LQA
+<p style="text-align: center;">
+![6LQA](https://github.com/nberkow/pdb-phrases/blob/main/assets/karmaSeq.png)
+</p>
+
 Each of those letters represents a tiny piece of a living thing. Most sequences seem like kind of a jumble when viewed this way but every once in a while, just by chance, you can find a sequence that looks like this:
 
 

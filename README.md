@@ -47,7 +47,7 @@ INFAAA — The Way I Loved You
 <img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/speaknow.png", alt="speaknow">
 </p>
 
-Bracelet: ISILYR
+**Bracelet:** ISILYR
 
 **Where it comes from:** A lab rat <br>
 **Where it really comes from:** Back To December
@@ -65,7 +65,7 @@ LMLLH — Ours
 </p>
 
 
-Bracelet: STIMPD
+**Bracelet:** STIMPD
 
 **Where it comes from:** A bacteria that lives in very hot water  <br>
 **Where it really comes from:** The Moment I knew
@@ -84,7 +84,7 @@ LTIAYT — Last time I’m asking you this
 </p>
 
 
-Bracelet: TTYIII
+**Bracelet:** TTYIII
 
 **Where it comes from:** Humans <br>
 **Where it really comes from:** Blank Space
@@ -103,7 +103,7 @@ DYTIAT — Bad Blood
 </p>
 
 
-Bracelet: IDLYKK
+**Bracelet:** IDLYKK
 
 **Where it comes from:** Anthrax! <br>
 **Where it really comes from:** Look What You Made Me Do

@@ -1,13 +1,21 @@
+#### PDB Phrases
+This project demonstrates the functionality of the [Protein Data Bank's REST API](https://data.rcsb.org/#data-api). I chose to show off this powerful tool with an extremely important use case.
+
+# I Went Looking for Eras Tour Bracelet Ideas in a Scientific Database
+### Here’s What I Found
+
 The Protein Data Bank is an important resource for scientists. It stores the sequences of amino acids that make up proteins, one of the building blocks of life. The databases stores protein sequences as strings of letters, like this:
 
-<p style="text-align: center;">
-![6LQA](https://github.com/nberkow/pdb-phrases/blob/main/assets/karmaSeq.png)
+<p align="center">
+<img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/exampleSeq.png", alt="4UXL">
 </p>
-
+  
 Each of those letters represents a tiny piece of a living thing. Most sequences seem like kind of a jumble when viewed this way but every once in a while, just by chance, you can find a sequence that looks like this:
 
+<p align="center">
+<img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/karmaSeq.png", alt="6LQA">
+</p>
 
-4UXL
 There’s a readable English word in there! In this case, it’s the name of a hit collaboration between Taylor Swift and Ice Spice.
 
 You won’t find every letter in these sequences. Only twenty of the twenty-six letters in the English alphabet are used. For this reason, some words just won’t be in the there. There’s no B for example, so no chance of finding “Betty.”
@@ -16,7 +24,10 @@ Lots of words and acronyms are possible with just the available letters though, 
 
 Check out what I found
 
-Fearless
+## Fearless
+<p align="center">
+<img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/fearless.png", alt="fearless">
+</p>
 
 Bracelet: SYWTYS
 
@@ -31,7 +42,10 @@ Other options:
 IGSCAF — Tell Me Why
 INFAAA — The Way I Loved You
 
-Speak Now
+## Speak Now
+<p align="center">
+<img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/speaknow.png", alt="speaknow">
+</p>
 
 Bracelet: ISILYR
 
@@ -45,7 +59,11 @@ What it says about you: Either you’re still having complicated feelings about 
 Other options:
 LMLLH — Ours
 
-Red
+## Red
+<p align="center">
+<img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/red.png", alt="red">
+</p>
+
 
 Bracelet: STIMPD
 
@@ -60,7 +78,11 @@ Other options:
 IIWASG — Girl At Home
 LTIAYT — Last time I’m asking you this
 
-1989
+## 1989
+<p align="center">
+<img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/1989.png", alt="1989">
+</p>
+
 
 Bracelet: TTYIII
 
@@ -75,7 +97,11 @@ Other options:
 IGGDIF — Blank Space
 DYTIAT — Bad Blood
 
-Reputation
+## Reputation
+<p align="center">
+<img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/reputation.png", alt="reputation">
+</p>
+
 
 Bracelet: IDLYKK
 
@@ -89,7 +115,10 @@ What it says about you: You have a dark side. The bacteria that this sequence co
 Other options:
 TGTPAP — I Did Something Bad
 
-Lover
+## Lover
+<p align="center">
+<img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/lover.png", alt="lover">
+</p>
 
 Bracelet: TNLTLT
 
@@ -104,7 +133,10 @@ Other options:
 AYKILS — London Boy
 ASTIDK — You Need To Calm Down
 
-Folklore
+## Folklore
+<p align="center">
+<img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/folklore.png", alt="folklore">
+</p>
 
 Bracelet: TYYCAS
 
@@ -118,7 +150,10 @@ What it says about you: You’re into interconnected narratives. You know that e
 Other options:
 RNITLT — Betty
 
-Evermore
+## Evermore
+<p align="center">
+<img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/evermore.png", alt="evermore">
+</p>
 
 Bracelet: AINGLA
 
@@ -132,8 +167,10 @@ What it says about you: You never wanted love, just a fancy car
 Other options:
 IDLAGR — Gold Rush
 
-Midnights
-
+## Midnights
+<p align="center">
+<img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/midnights.png", alt="midnights">
+</p>
 Bracelet: MAKVLT
 
 Where it comes from: A rabbit
@@ -147,9 +184,11 @@ Other options:
 TTMATI — You’re On Your Own Kid
 SSTSFTT — Mastermind
 
-Debut
+## Debut
 I didn’t forget about Debut! It actually has a pair of sequences that line up with lyrics. One of them is from humans, the other is from a species of bacteria.
-
+<p align="center">
+<img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/debut.png", alt="debut">
+</p>
 
 Bracelet: AYKEAM AIKEAY
 

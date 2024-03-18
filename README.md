@@ -29,17 +29,17 @@ Check out what I found
 <img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/fearless.png", alt="fearless">
 </p>
 
-Bracelet: SYWTYS
+**Bracelet:** SYWTYS
 
-Where it comes from: A bacteria <br>
-Where it really comes from: Mr. Perfectly Fine
+**Where it comes from:** A bacteria
+**Where it really comes from:** Mr. Perfectly Fine
 
-The lyric: “Sashay your way to your seat”
+**The lyric:** “Sashay your way to your seat”
 
-What it says about you: You know exactly where your seat is and exactly how to get there
+**What it says about you:** You know exactly where your seat is and exactly how to get there
 
-Other options: <br>
-IGSCAF — Tell Me Why <br>
+**Other options:**
+IGSCAF — Tell Me Why
 INFAAA — The Way I Loved You
 
 ## Speak Now
@@ -49,14 +49,14 @@ INFAAA — The Way I Loved You
 
 Bracelet: ISILYR
 
-Where it comes from: A lab rat <br>
-Where it really comes from: Back To December
+**Where it comes from:** A lab rat
+**Where it really comes from:** Back To December
 
-The Lyric: “I swear I’d love you right”
+**The Lyric:** “I swear I’d love you right”
 
-What it says about you: Either you’re still having complicated feelings about a past relationship or you’re just really into the idea of time travel
+**What it says about you:** Either you’re still having complicated feelings about a past relationship or you’re just really into the idea of time travel
 
-Other options: <br>
+**Other options:**
 LMLLH — Ours
 
 ## Red
@@ -67,16 +67,16 @@ LMLLH — Ours
 
 Bracelet: STIMPD
 
-Where it comes from: A bacteria that lives in very hot water <br>
+Where it comes from: A bacteria that lives in very hot water
 Where it really comes from: The Moment I knew
 
-The Lyric: “Standing there in my party dress”
+**The Lyric:** “Standing there in my party dress”
 
-What it says about you: You don’t love being the center of attention, but your Eras outfit is amazing!
+**What it says about you:** You don’t love being the center of attention, but your Eras outfit is amazing!
 
-Other options: <br>
-IIWASG — Girl At Home <br>
-LTIAYT — Last time I’m asking you this <br>
+**Other options:**
+IIWASG — Girl At Home
+LTIAYT — Last time I’m asking you this
 
 ## 1989
 <p align="center">
@@ -86,15 +86,15 @@ LTIAYT — Last time I’m asking you this <br>
 
 Bracelet: TTYIII
 
-Where it comes from: Humans <br>
-Where it really comes from: Blank Space
+**Where it comes from:** Humans
+**Where it really comes from:** Blank Space
 
-The Lyric: “They’ll tell you I’m insane (Insane)”
+**The Lyric:** “They’ll tell you I’m insane (Insane)”
 
-What it says about you: This song is about owning your image and re-inventing yourself at the same time no matter what people think. If you’re wearing this you’re ready to cross over into a new genre
+**What it says about you:** This song is about owning your image and re-inventing yourself at the same time no matter what people think. If you’re wearing this you’re ready to cross over into a new genre
 
-Other options: <br>
-IGGDIF — Blank Space <br>
+**Other options:**
+IGGDIF — Blank Space
 DYTIAT — Bad Blood
 
 ## Reputation
@@ -105,14 +105,14 @@ DYTIAT — Bad Blood
 
 Bracelet: IDLYKK
 
-Where it comes from: Anthrax! <br>
-Where it really comes from: Look What You Made Me Do
+**Where it comes from:** Anthrax!
+**Where it really comes from:** Look What You Made Me Do
 
-The Lyric: “I don’t like your kingdom keys”
+**The Lyric:** “I don’t like your kingdom keys”
 
-What it says about you: You have a dark side. The bacteria that this sequence comes from, much like the album Reputation, is weaponized
+**What it says about you:** You have a dark side. Reputation is Taylor's music at its most weaponized.
 
-Other options: <br>
+**Other options:**
 TGTPAP — I Did Something Bad
 
 ## Lover
@@ -120,18 +120,18 @@ TGTPAP — I Did Something Bad
 <img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/lover.png", alt="lover">
 </p>
 
-Bracelet: TNLTLT
+**Bracelet:** TNLTLT
 
-Where it comes from: A tiny monkey <br>
-Where it really comes from: Miss Americana And the Heartbreak Prince
+**Where it comes from:** A tiny monkey
+**Where it really comes from:** Miss Americana And the Heartbreak Prince
 
-The Lyric: “There’s nothing like this (Like this)”
+**The Lyric:** “There’s nothing like this (Like this)”
 
-What it says about you: Tiny monkeys are adorable
+**What it says about you:** Tiny monkeys are adorable
 
-Other options: <br>
-AYKILS — London Boy <br>
-ASTIDK — You Need To Calm Down <br>
+**Other options:**
+AYKILS — London Boy
+ASTIDK — You Need To Calm Down
 
 ## Folklore
 <p align="center">
@@ -140,14 +140,14 @@ ASTIDK — You Need To Calm Down <br>
 
 Bracelet: TYYCAS
 
-Where it comes from: humans <br>
-Where it really comes from: Illicit Affairs
+**Where it comes from:** humans
+**Where it really comes from:** Illicit Affairs
 
-The Lyric: “Tell yourself you can always stop”
+**The Lyric:** “Tell yourself you can always stop”
 
-What it says about you: You’re into interconnected narratives. You know that everyone has a perspective and that the villain in one story is often the protagonist in another
+**What it says about you:** You’re into interconnected narratives. You know that everyone has a perspective and that the villain in one story is often the protagonist in another
 
-Other options: <br>
+**Other options:**
 RNITLT — Betty
 
 ## Evermore
@@ -155,16 +155,16 @@ RNITLT — Betty
 <img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/evermore.png", alt="evermore">
 </p>
 
-Bracelet: AINGLA
+**Bracelet:** AINGLA
 
-Where it comes from: A flowering plant <br>
-Where it really comes from: Cowboy Like Me
+**Where it comes from:** A flowering plant
+**Where it really comes from:** Cowboy Like Me
 
-The Lyric: “And I’m never gonna love again”
+**The Lyric:** “And I’m never gonna love again”
 
-What it says about you: You never wanted love, just a fancy car
+**What it says about you:** You never wanted love, just a fancy car
 
-Other options: <br>
+**Other options:**
 IDLAGR — Gold Rush
 
 ## Midnights
@@ -173,15 +173,15 @@ IDLAGR — Gold Rush
 </p>
 Bracelet: MAKVLT
 
-Where it comes from: A rabbit <br>
-Where it really comes from: Karma
+**Where it comes from:** A rabbit
+**Where it really comes from:** Karma
 
-The Lyric “Me and karma vibe like that”
+**The Lyric:** “Me and karma vibe like that”
 
-What it says about you: You don’t get upset about little things like, for example, your life’s work being owned by some music industry bro. You know that what goes around comes around
+**What it says about you:** You don’t get upset about little things like, for example, your life’s work being owned by some music industry bro. You know that what goes around comes around
 
-Other options: <br>
-TTMATI — You’re On Your Own Kid <br>
+**Other options:**
+TTMATI — You’re On Your Own Kid
 SSTSFTT — Mastermind
 
 ## Debut
@@ -190,12 +190,8 @@ I didn’t forget about Debut! It actually has a pair of sequences that line up 
 <img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/debut.png", alt="debut">
 </p>
 
-Bracelet: AYKEAM AIKEAY
+**Bracelet:** AYKEAM AIKEAY
 
-Where it’s really from: I’m Only Me When I’m With You
+**Where it’s really from:** I’m Only Me When I’m With You
 
-Lyrics:
-“And I know everything about you” <br>
-“And you know everything about me”
-
-What it says about you: You miss the old Taylor
+**What it says about you:** You miss the old Taylor

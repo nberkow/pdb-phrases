@@ -38,8 +38,8 @@ Check out what I found
 
 **What it says about you:** You know exactly where your seat is and exactly how to get there
 
-**Other options:**
-IGSCAF — Tell Me Why
+**Other options:** <br>
+IGSCAF — Tell Me Why <br>
 INFAAA — The Way I Loved You
 
 ## Speak Now
@@ -56,7 +56,7 @@ Bracelet: ISILYR
 
 **What it says about you:** Either you’re still having complicated feelings about a past relationship or you’re just really into the idea of time travel
 
-**Other options:**
+**Other options:** <br>
 LMLLH — Ours
 
 ## Red
@@ -74,7 +74,7 @@ Bracelet: STIMPD
 
 **What it says about you:** You don’t love being the center of attention, but your Eras outfit is amazing!
 
-**Other options:**
+**Other options:** <br>
 IIWASG — Girl At Home  <br>
 LTIAYT — Last time I’m asking you this
 
@@ -93,7 +93,7 @@ Bracelet: TTYIII
 
 **What it says about you:** This song is about owning your image and re-inventing yourself at the same time no matter what people think. If you’re wearing this you’re ready to cross over into a new genre
 
-**Other options:**
+**Other options:** <br>
 IGGDIF — Blank Space <br>
 DYTIAT — Bad Blood
 
@@ -112,7 +112,7 @@ Bracelet: IDLYKK
 
 **What it says about you:** You have a dark side. Reputation is Taylor's music at its most weaponized.
 
-**Other options:**
+**Other options:** <br>
 TGTPAP — I Did Something Bad
 
 ## Lover
@@ -129,7 +129,7 @@ TGTPAP — I Did Something Bad
 
 **What it says about you:** Tiny monkeys are adorable
 
-**Other options:**
+**Other options:** <br>
 AYKILS — London Boy <br>
 ASTIDK — You Need To Calm Down
 
@@ -138,7 +138,7 @@ ASTIDK — You Need To Calm Down
 <img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/folklore.png", alt="folklore">
 </p>
 
-Bracelet: TYYCAS
+**Bracelet:** TYYCAS
 
 **Where it comes from:** humans <br>
 **Where it really comes from:** Illicit Affairs
@@ -171,7 +171,8 @@ IDLAGR — Gold Rush
 <p align="center">
 <img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/midnights.png", alt="midnights">
 </p>
-Bracelet: MAKVLT
+
+**Bracelet:** MAKVLT
 
 **Where it comes from:** A rabbit <br>
 **Where it really comes from:** Karma
@@ -180,7 +181,7 @@ Bracelet: MAKVLT
 
 **What it says about you:** You don’t get upset about little things like, for example, your life’s work being owned by some music industry bro. You know that what goes around comes around
 
-**Other options:**
+**Other options:**  <br>
 TTMATI — You’re On Your Own Kid <br>
 SSTSFTT — Mastermind
 

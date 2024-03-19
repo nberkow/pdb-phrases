@@ -4,7 +4,7 @@ This project demonstrates the functionality of the [Protein Data Bank's REST API
 # I Went Looking for Eras Tour Bracelet Ideas in a Scientific Database
 ### Here’s What I Found
 
-The Protein Data Bank is an important resource for scientists. It stores the sequences of amino acids that make up proteins, one of the building blocks of life. The databases stores protein sequences as strings of letters, like this:
+The Protein Data Bank is an important resource for scientists. It stores the sequences of amino acids that make up proteins, one of the building blocks of life. The database stores protein sequences as strings of letters, like this:
 
 <p align="center">
 <img src="https://github.com/nberkow/pdb-phrases/blob/main/assets/exampleSeq.png", alt="4UXL">

@@ -1,5 +1,5 @@
 #### PDB Phrases
-This project demonstrates the functionality of the [Protein Data Bank's REST API](https://data.rcsb.org/#data-api). I chose to show off this powerful tool with an extremely important use case.
+This project demonstrates the functionality of the [Protein Data Bank's REST API](https://data.rcsb.org/#data-api). I wanted to show off this powerful tool with an extremely important use case.
 
 # I Went Looking for Eras Tour Bracelet Ideas in a Scientific Database
 ### Here’s What I Found
